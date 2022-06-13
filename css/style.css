@@ -74,6 +74,7 @@ header {
 .body {
   padding: 4rem 0;
   max-width: 550px;
+  position: relative;
 }
 
 .pickup_line {
@@ -189,7 +190,7 @@ form.filter .blacklist label {
   font-weight: 500;
 }
 
-form.filter button {
+button {
   font-size: 1rem;
   padding: 0.3rem 0.6rem;
   outline: none;
@@ -198,5 +199,8 @@ form.filter button {
   border-radius: 0.5rem;
   color: #fff;
   cursor: pointer;
+  position: fixed;
+  bottom: 1em;
+  right: 1em;
 }
 /*# sourceMappingURL=style.css.map */

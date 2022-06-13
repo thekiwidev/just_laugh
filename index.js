@@ -13,7 +13,7 @@ function getJoke(url) {
 getJoke(url);
 
 // let's infiltrate the DOM
-const btn = document.querySelector("form button");
+const btn = document.querySelector("button");
 
 const category = document.getElementById("category");
 

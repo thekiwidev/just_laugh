@@ -64,6 +64,7 @@ header {
 .body {
   padding: 4rem 0;
   max-width: 550px;
+  position: relative;
 }
 
 .pickup_line {
@@ -112,6 +113,7 @@ form.filter {
   backdrop-filter: blur(5.8px);
   -webkit-backdrop-filter: blur(8.8px);
   border: 1px solid #0091ff4b;
+  // position: static;
 
   .category {
     display: flex;
@@ -160,14 +162,17 @@ form.filter {
       font-weight: 500;
     }
   }
-  button {
-    font-size: 1rem;
-    padding: 0.3rem 0.6rem;
-    outline: none;
-    border: none;
-    background: #0091ff;
-    border-radius: 0.5rem;
-    color: #fff;
-    cursor: pointer;
-  }
+}
+button {
+  font-size: 1rem;
+  padding: 0.3rem 0.6rem;
+  outline: none;
+  border: none;
+  background: #0091ff;
+  border-radius: 0.5rem;
+  color: #fff;
+  cursor: pointer;
+  position: fixed;
+  bottom: 1em;
+  right: 1em;
 }
