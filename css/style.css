@@ -12,10 +12,12 @@ body {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 .container {
   width: 100%;
+  max-width: 500px;
   padding: 1em;
   margin: auto;
 }
